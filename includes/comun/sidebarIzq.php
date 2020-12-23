@@ -2,7 +2,7 @@
 	<ul>
 		<ul><a href="index.php">Inicio</a></ul>
 		<ul><a href="contenido.php">Seguidores</a></ul>
-		<ul><a href="admin.php">Subir foto</a></ul>
+		<ul><button id="button-subir-foto">Subir foto</button></ul>
 	</ul>
 	<div id="publi">
 		<h2>Espacio publicitario</h2>
