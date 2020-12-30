@@ -1,7 +1,11 @@
 <div id="sidebar-left">
 	<ul>
 		<ul><a href="index.php">Inicio</a></ul>
-		<ul><a href="contenido.php">Seguidores</a></ul>
+		<ul><a>Seguidores: </a><?php 
+		if(isset($_SESSION['seguidores'])) echo $_SESSION['seguidores'];
+		else echo "0"; 
+		?>
+		</a></ul>
 		<ul><button id="button-subir-foto" onclick=location.href="accionSubirFoto.php">Subir foto</button></ul>
 	</ul>
 	<div id="publi">
