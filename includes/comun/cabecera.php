@@ -3,7 +3,7 @@
 	<div class="saludo">
 	<?php
 	echo "Bienvenido de nuevo, usuario ";
-	echo "<button id='button-salir'>Salir</button>"
+	echo "<button id='button-salir'  style='FONT-SIZE: 1em; FONT-FAMILY: Verdana;'>Salir</button>"
 	?>
 	</div>
 </div>
