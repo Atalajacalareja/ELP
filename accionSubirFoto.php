@@ -1,6 +1,5 @@
 <?php
 session_start();
-
 $_SESSION['cont'] += 1;
 $incSeguidores = pow(rand(2, 3), $_SESSION["cont"]);
 //esto va incrementando los seguidores cada vez mas

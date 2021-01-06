@@ -15,7 +15,7 @@ session_start();
         // funcion para disminuir la fuente
         function zoomOut() {
             fontSize -= 0.1;
-            document.body.style.fontSize = fontSize + "em";
+            document.getElementById("button-salir").style.fontSize = fontSize + "em";
         }
     </script>
 	<meta charset="utf-8">
@@ -43,7 +43,8 @@ session_start();
 		if($cont >= 1){
 			echo '<h3>Pingüinos</h3>';
 			echo '<img src="includes/media/pinguinos.jpg" alt="pingüinos">';
-			echo '<button id="button-comentario" onClick="zoomOut()">Añadir comentario</button>';
+			echo "<br/>";
+			echo '<button id="button-comentario" onclick=location.href="accionSubirFoto.php">Añadir comentario</button>';
 
 			if($cont == 1){
 				echo '<script type="text/javascript">window.open("ventanasEmergentes.php?id=1", "nombrePop-Up", "width=600,height=350, top=250,left=350");</script>';
@@ -53,13 +54,14 @@ session_start();
 		if($cont >= 2){
 			echo '<h3>Mona Lisa!</h3>';
 			echo '<img src="includes/media/monalisa.jpg" alt="mona lisa">';
-			echo '<button id="button-comentario" onClick="zoomOut()">Añadir comentario</button>';
+			echo '<button id="button-comentario" onclick=location.href="accionSubirFoto.php">Añadir comentario</button>';
 		}
 
 		if($cont >= 3){
 			echo '<h3>Pingüinos</h3>';
 			echo '<img src="includes/media/pinguinos.jpg" alt="pingüinos">';
-			echo '<button id="button-comentario" onClick="zoomOut()">Añadir comentario</button>';
+			echo "<br/>";
+			echo '<button id="button-comentario" onclick=location.href="accionSubirFoto.php">Añadir comentario</button>';
 
 			if($cont == 3){
 				echo '<script type="text/javascript">window.open("ventanasEmergentes.php?id=2", "nombrePop-Up", "width=600,height=350, top=250,left=350");</script>';
@@ -69,7 +71,7 @@ session_start();
 		if($cont >= 4){
 			echo '<h3>Mona Lisa!</h3>';
 			echo '<img src="includes/media/monalisa.jpg" alt="mona lisa">';
-			echo '<button id="button-comentario" onClick="zoomOut()">Añadir comentario</button>';
+			echo '<button id="button-comentario" onclick=location.href="accionSubirFoto.php">Añadir comentario</button>';
 
 			if($cont == 4){
 				echo '<script type="text/javascript">window.open("ventanasEmergentes.php?id=3", "nombrePop-Up", "width=600,height=350, top=250,left=350");</script>';
@@ -79,13 +81,14 @@ session_start();
 		if($cont >= 5){
 			echo '<h3>Pingüinos</h3>';
 			echo '<img src="includes/media/pinguinos.jpg" alt="pingüinos">';
-			echo '<button id="button-comentario" onClick="zoomOut()">Añadir comentario</button>';
+			echo "<br/>";
+			echo '<button id="button-comentario" onclick=location.href="accionSubirFoto.php">Añadir comentario</button>';
 		}
 
 		if($cont >= 6){
 			echo '<h3>Mona Lisa!</h3>';
 			echo '<img src="includes/media/monalisa.jpg" alt="mona lisa">';
-			echo '<button id="button-comentario" onClick="zoomOut()">Añadir comentario</button>';
+			echo '<button id="button-comentario" onclick=location.href="accionSubirFoto.php">Añadir comentario</button>';
 
 			if($cont == 6){
 				echo '<script type="text/javascript">window.open("ventanasEmergentes.php?id=4", "nombrePop-Up", "width=600,height=350, top=250,left=350");</script>';
@@ -95,13 +98,14 @@ session_start();
 		if($cont >= 7){
 			echo '<h3>Pingüinos</h3>';
 			echo '<img src="includes/media/pinguinos.jpg" alt="pingüinos">';
-			echo '<button id="button-comentario" onClick="zoomOut()">Añadir comentario</button>';
+			echo "<br/>";
+			echo '<button id="button-comentario" onclick=location.href="accionSubirFoto.php">Añadir comentario</button>';
 		}
 
 		if($cont >= 8){
 			echo '<h3>Mona Lisa!</h3>';
 			echo '<img src="includes/media/monalisa.jpg" alt="mona lisa">';
-			echo '<button id="button-comentario" onClick="zoomOut()">Añadir comentario</button>';
+			echo '<button id="button-comentario" onclick=location.href="accionSubirFoto.php">Añadir comentario</button>';
 
 			if($cont == 8){
 				echo '<script type="text/javascript">window.open("ventanasEmergentes.php?id=5", "nombrePop-Up", "width=600,height=350, top=250,left=350");</script>';
@@ -111,13 +115,14 @@ session_start();
 		if($cont >= 9){
 			echo '<h3>Pingüinos</h3>';
 			echo '<img src="includes/media/pinguinos.jpg" alt="pingüinos">';
-			echo '<button id="button-comentario" onClick="zoomOut()">Añadir comentario</button>';
+			echo "<br/>";
+			echo '<button id="button-comentario" onclick=location.href="accionSubirFoto.php">Añadir comentario</button>';
 		}
 
 		if($cont >= 10){
 			echo '<h3>Mona Lisa!</h3>';
 			echo '<img src="includes/media/monalisa.jpg" alt="mona lisa">';
-			echo '<button id="button-comentario" onClick="zoomOut()">Añadir comentario</button>';
+			echo '<button id="button-comentario" onclick=location.href="accionSubirFoto.php">Añadir comentario</button>';
 
 			if($cont == 10){
 				echo '<script type="text/javascript">window.open("ventanasEmergentes.php?id=6", "nombrePop-Up", "width=600,height=350, top=250,left=350");</script>';
