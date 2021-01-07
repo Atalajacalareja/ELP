@@ -1,7 +1,8 @@
 <?php
 session_start();
 $_SESSION['contGeneral'] += 1;
-$_SESSION['cont'] += 1;
+$foto = isset($_GET['foto']) ? $_GET['foto'] : null;
+$_SESSION[$foto] = true;
 $incSeguidores = pow(rand(2, 3), $_SESSION["cont"]);
 //esto va incrementando los seguidores cada vez mas
 $_SESSION["seguidores"] += $incSeguidores;

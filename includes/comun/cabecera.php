@@ -1,23 +1,28 @@
 <div id="cabecera">
-	<h1 style='font-size: 30px'>World's best social media</h1>
-	<div class="saludo">
+	<h1 style='font-size: 40px'>World's best social media</h1>
+	<script>
+	function ventanaNueva(documento){	
+		window.open(documento,'nuevaVentana','width=300, height=400');
+	}
+	</script>
 	<?php
 	$tamano = 20;
-	if(isset($_SESSION['cont'])) {
-		$tamano -= $_SESSION['cont'];
+	if(isset($_SESSION['contGeneral'])) {
+		$tamano -= $_SESSION['contGeneral'];
 		if($tamano <= 0) {
-			echo "<div id='nombre-app' style='font-size: 19px;'>Bienvenido de nuevo, usuario</div>";
+
 		}
 		else {
-			echo "<div id='nombre-app' style='font-size: 19px;'>Bienvenido de nuevo, usuario</div>";
-			echo "<button id='button-salir'  style='font-size: ".$tamano."px; FONT-FAMILY: Verdana;'>Salir</button>";
+			?>
+			<button id='button-salir' style='FONT-FAMILY: Verdana; font-size:<?php echo $tamano;?>px; width: <?php echo $tamano*10;?>px; height: <?php echo $tamano*4;?>px;' onclick='alert("¡QUÉDATE! Estás en la mejor red social del mundo, no te vas a ir así como así.")'>Salir</button>
+			<?php
 		}
 	}
 	else {
-		echo "<div id='nombre-app' style='font-size: 19px;'>Bienvenido de nuevo, usuario</div>";
-		echo "<button id='button-salir'  style='font-size: ".$tamano."px; FONT-FAMILY: Verdana;'>Sali</button>";
+		?>
+		<button id='button-salir' style='FONT-FAMILY: Verdana; font-size:<?php echo $tamano;?>px; width: <?php echo $tamano*10;?>px; height: <?php echo $tamano*4;?>px;' onclick='alert("¡QUÉDATE! Estás en la mejor red social del mundo, no te vas a ir así como así.")'>Salir</button>
+		<?php
 	}
 	?>
-	</div>
 </div>
 
