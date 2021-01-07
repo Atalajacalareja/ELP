@@ -100,12 +100,7 @@ div#contenido {
 
 div#pie {
 	display: flex-inline;
-	justify-content: space-between;
-	vertical-align: sub;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding-right: 20px;
-	padding-left: 20px;
+	padding-top: 30px;
 	background-color: #303030;
 	color: white;
 	text-align: center;
