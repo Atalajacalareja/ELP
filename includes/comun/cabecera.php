@@ -1,5 +1,5 @@
 <div id="cabecera">
-	<h1 style='font-size: 40px'>World's best social media</h1>
+	<h1 style='font-size: 40px; color: #E1D737;'>World's best social media</h1>
 	<script>
 	function ventanaNueva(documento){	
 		window.open(documento,'nuevaVentana','width=300, height=400');

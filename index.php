@@ -23,9 +23,11 @@ session_start();
 	echo '<div id="contenido">';
 
 	if($cont == 0){
-		echo '<h1>Home</h1>';
-		echo '<p> Mira que bien se lo estan pasando el resto de usuarios! </p>';
-		echo '<p> Prueba a subir tu primera foto, verás que bien sienta</p>';
+		echo '<h1 class="parpadea" id="tituloPrincipal">Bienvenido a la mejor red social del mundo</h1>';
+		echo '<img src="flechaIzq.gif"><img src="flechaIzq.gif"><img src="flechaIzq.gif"><img src="flechaIzq.gif"><img src="flechaIzq.gif"><img src="flechaIzq.gif"><img src="flechaIzq.gif">';
+		echo '<p id="parrafoPrincipal"> Prueba a subir tu primera foto pulsando el botón de la barra lateral izquierda, verás que bien sienta, podrás comentar las fotos y empezarás a tener seguidores, likes, mensajes y mucha popularidad.</p>';
+		echo '<p id="parrafoPrincipal"> Pero no intentes salir... </p>';
+		echo '<p align=center><img src="prohibido.gif"></p>';
 	}
 	else{
 		if($cont >= 1){

@@ -6,8 +6,7 @@ body {
 		"header header header"
 		"sidebarIz contenido sidebarDer"
 		"footer footer footer";
-	/*background-color: #14B76E;*/
-	background-color: #CDCDCD;
+	background-color: #CDCDCD;s
 }
 
 /*div#contenedor {
@@ -175,4 +174,56 @@ div#posts img {
 	width:auto;
 	display: block;
 	margin: auto;
+}
+
+#button-salir{
+	background-color: red;
+}
+
+#button-subir-foto{
+	background-color: yellow;
+}
+
+#tituloPrincipal{
+	margin-top: 0px;
+	text-align: center;
+	font-size: 60px;
+	color: yellow;
+	background-color: black;
+}
+
+#parrafoPrincipal{
+	text-align: center;
+	font-size: 25px;
+}
+
+.parpadea {
+  
+  animation-name: parpadeo;
+  animation-duration: 0.15s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+  -webkit-animation-name:parpadeo;
+  -webkit-animation-duration: 0.15s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-moz-keyframes parpadeo{  
+  0% { opacity: 2.0; }
+  50% { opacity: 0.2; }
+  100% { opacity: 2.0; }
+}
+
+@-webkit-keyframes parpadeo {  
+  0% { opacity: 2.0; }
+  50% { opacity: 0.2; }
+   100% { opacity: 2.0; }
+}
+
+@keyframes parpadeo {  
+  0% { opacity: 2.0; }
+   50% { opacity: 0.2; }
+  100% { opacity: 2.0; }
 }

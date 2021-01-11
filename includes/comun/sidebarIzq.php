@@ -6,7 +6,7 @@
 		else echo "0"; 
 		?>
 		</a></ul>
-		<ul><button id="button-subir-foto" onclick=location.href="accionSubirFoto.php" style='font-size: 20px; width:140px; height:40px'>Subir foto</button></ul>
+		<ul><button id="button-subir-foto" onclick=location.href="accionSubirFoto.php" style='font-size: 20px; width:160px; height:60px'>Subir foto</button></ul>
 	</ul>
 	<div id="publi">
 		<h2>Espacio publicitario</h2>
