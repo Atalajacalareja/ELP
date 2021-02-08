@@ -1,5 +1,5 @@
 <div id="cabecera">
-	<h1 style='font-size: 40px; color: #E1D737;'>World's best social media</h1>
+	<h1 style='font-size: 50px;'>World's best social media</h1>
 	<script>
 	function ventanaNueva(documento){	
 		window.open(documento,'nuevaVentana','width=300, height=400');
@@ -8,7 +8,7 @@
 	<?php
 	$tamano = 20;
 	if(isset($_SESSION['contGeneral'])) {
-		$tamano -= $_SESSION['contGeneral'];
+		$tamano -= $_SESSION['contGeneral']*2;
 		if($tamano <= 0) {
 
 		}
